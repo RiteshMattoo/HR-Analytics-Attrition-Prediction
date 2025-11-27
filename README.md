@@ -9,31 +9,31 @@ The entire workflow — SQL → Python → Visual Insights → HR Recommendation
 
 ## 🔥 Quick Summary
 
-| Insight                                | Interpretation                                |
-| -------------------------------------- | --------------------------------------------- |
+| Insight                                            | Interpretation                                |
+| --------------------------------------             | --------------------------------------------- |
 
-| Overall Attrition ≈ 16–18%             | Moderate employee turnover rate               |
+| Overall Attrition ≈ 16–18%                         | Moderate employee turnover rate               |
 
-| Highest Risk Age Group → **25–35 yrs** | Mid-career professionals actively switch jobs |
+| Highest Risk Age Group → **25–35 yrs**             | Mid-career professionals actively switch jobs |
 
-| Low Salary → Higher Attrition          | Compensation is a strong driver of exits      |
+| Low Salary → Higher Attrition                      | Compensation is a strong driver of exits      |
 
-| Sales & R&D = Highest churn            | High workload + competitive pressure          |
+| Sales & R&D = Highest churn                        | High workload + competitive pressure          |
 
-| Senior Employees (40+) = Most stable   | More loyal and satisfied with role            |
+| Senior Employees (40+) = Most stable               | More loyal and satisfied with role            |
 
 
 ## 🧰 Tech Stack
 
-| Area               |    Tools Used                           |
+| Area                              |    Tools Used                           |
 
-| ------------------ | ------------------------------------ |
+| ------------------                | ------------------------------------ |
 
-| Database           | MySQL                                |
+| Database                          | MySQL                                |
 
-| Analytics          | Python (Pandas, NumPy)               |
+| Analytics                         | Python (Pandas, NumPy)               |
 
-| Visualization      | Matplotlib, Seaborn                  |
+| Visualization                     | Matplotlib, Seaborn                  |
 
 ## 📁 Repository Structure
 
