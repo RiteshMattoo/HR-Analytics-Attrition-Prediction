@@ -40,26 +40,18 @@ The entire workflow — SQL → Python → Visual Insights → HR Recommendation
 
 HR-Analytics-Attrition-Prediction/
 
-│── SQL_Queries.sql      → Database creation, cleaning, analysis
+HR-Analytics-Attrition-Prediction/
 
-│── HR_Attrition_Analysis.ipynb   → Python EDA + visual insights
+│── SQL_Queries.sql                → All SQL queries (cleaning + analysis)
 
-│── Employee_Attrition.csv        → Dataset used in analysis
+│── HR_Attrition_Analysis.ipynb    → Python EDA + visual graphs inside notebook
 
-│── requirements.txt              → Python dependencies (pip install -r)
+│── Employee_Attrition.csv         → Dataset used for analysis
 
-│── README.md                     → Project documentation
-│
+│── requirements.txt               → Python dependency file
 
-└── visuals/ (recommended)
+│── README.md                      → Project description & documentation
 
-   │── attrition_count.png
-      
-   │── agegroup_attrition.png
-      
-   │── salary_vs_attrition.png
-      
-   │── department_attrition.png
 
 # 🔧 How to Run This Project Locally
 
