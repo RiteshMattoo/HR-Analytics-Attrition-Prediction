@@ -52,23 +52,10 @@ HR-Analytics-Attrition-Prediction/
 
 │── README.md                      → Project description & documentation
 
+│── Visuals
 
-# 🔧 How to Run This Project Locally
 
-### 1. Clone Repo
-
-git clone https://github.com/RiteshMattoo/HR-Analytics-Attrition-Prediction.git
-cd HR-Analytics-Attrition-Prediction
-
-### 2. Install Dependencies
-
-pip install -r requirements.txt
-
-### 3. Run Notebook
-
-Jupyter Notebook
-
-# 🧽 Data Cleaning & Preparation (SQL)
+## 🧽 Data Cleaning & Preparation (SQL)
 
 Conducted null and duplicate checks
 
@@ -80,7 +67,8 @@ Created derived feature → AgeGroup
 
 Performed SQL-based attrition analytics
 
-# 📊 Exploratory Insights (Python)
+
+## 📊 Exploratory Insights (Python)
 
  Visualizations performed include:
 
@@ -93,6 +81,27 @@ Performed SQL-based attrition analytics
  Age group-wise attrition rate
  
  Job role vs attrition
+
+ ## 📊 Visual Insights
+
+### 🔹 Overall Attrition
+![Overall Attrition](OverallAttritionCount.png)
+
+### 🔹 Department Wise Attrition
+![Department Vs Attrition](DepartmentWiseAttrition.png)
+
+### 🔹 Attrition By Agegroup
+![Age Group Attrition](AttritionByAgegroup.png)
+
+### 🔹 Attrition By Jobrole
+![Attrition by Jobrole](AttritionbyJobrole.png)
+
+### 🔹 Attrition By Worklifebalance
+![Attrition by Worklifebalance](AttritionByWorklifebalance.png)
+
+### 🔹 Attrition By Salary
+![Attrition by Salary](SalaryVsAttrition.png)
+
 
  # 📌 Business Conclusion
 
