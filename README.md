@@ -35,6 +35,7 @@ The entire workflow — SQL → Python → Visual Insights → HR Recommendation
 
 | Visualization                     | Matplotlib, Seaborn                  |
 
+
 ## 📁 Repository Structure
 
 HR-Analytics-Attrition-Prediction/
@@ -49,6 +50,7 @@ HR-Analytics-Attrition-Prediction/
 
 │── README.md                     → Project documentation
 │
+
 └── visuals/ (recommended)
 
    │── attrition_count.png
