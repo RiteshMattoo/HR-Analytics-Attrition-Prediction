@@ -1,93 +1,109 @@
 # 📊 HR Analytics & Employee Attrition Analysis
 
-This project focuses on analyzing employee attrition within an organization using structured HR data.
+This project focuses on analyzing workforce attrition using the IBM HR dataset.
 
-The objective is to identify key factors that influence employee turnover and derive actionable insights that support workforce retention strategies.
+The objective is to understand why employees leave, and to identify the key factors influencing resignation risk based on age, salary, department, job role, work-life 
+balance, satisfaction scores, and experience.
 
-## 1. Project Overview
+The entire workflow — SQL → Python → Visual Insights → HR Recommendations — is implemented end-to-end for a real-world data analytics scenario.
 
-Employee attrition is a major cost driver for organizations.
+## 🔥 Quick Summary
 
-Through SQL-based data processing and Python-driven exploratory data analysis (EDA), this project examines:
+| Insight                                | Interpretation                                |
+| -------------------------------------- | --------------------------------------------- |
 
-Which employee segments are more likely to resign
+| Overall Attrition ≈ 16–18%             | Moderate employee turnover rate               |
 
-How demographic, salary and job-related variables impact attrition
+| Highest Risk Age Group → **25–35 yrs** | Mid-career professionals actively switch jobs |
 
-Patterns, trends and correlations influencing workforce stability
+| Low Salary → Higher Attrition          | Compensation is a strong driver of exits      |
 
-This analysis serves as a decision-support model for HR departments to design efficient retention programs.
+| Sales & R&D = Highest churn            | High workload + competitive pressure          |
 
-## 2. Tech Stack
-
-| Domain           | Technology                           |
-
-| ---------------- | ------------------------------------ |
-
-| Database         | **MySQL**                            |
-
-| Programming      | **Python**                           |
-
-| Libraries        | Pandas, NumPy, Matplotlib, Seaborn   |
-
-## 3. Project Components
-
-| File / Folder                 | Description                                                                      |
-
-| ----------------------------- | -------------------------------------------------------------------------------- |
-
-| `SQL_Queries.sql`             | Complete SQL workflow including data cleaning, transformation & analysis queries |
-
-| `HR_Attrition_Analysis.ipynb` | Python notebook for data visualization and exploratory insights                  |
-
-| `Employee_Attrition.csv`      | Source dataset (IBM HR Attrition)                                                |
-
-| `README.md`                   | Project documentation                                                            |
-
-## 4.Data Preparation Summary (SQL)
-
-  Performed data quality checks (null values, duplicates, inconsistency)
-
-  Created derived column AgeGroup for categorical interpretation
-
-  Conducted outlier detection using IQR method
-
-  Performed SQL-based descriptive and comparative analytics
-
- ## 5. Exploratory Data Analysis (Python)
-
-  ### Key analysis dimensions:
-  
-  | Category         | Observations                                                              
-  |
-| ---------------- | ------------------------------------------------------------------------- |
-
-| Attrition Ratio  | ~16–18% employees exited the organization                                 |
-
-| Age Impact       | Employees aged **25–35 show highest attrition risk**                      |
-
-| Compensation     | Lower salary correlates with higher resignation probability               |
-
-| Department Risk  | Sales and R&D experienced greater churn than HR & Finance                 |
-
-| Job Role Impact  | Technicians & Sales associates show higher exits; Managers show stability |
-
-| Senior Workforce | 40+ employees exhibit comparatively lower attrition                       |
-
-## 6. Key Insights
-
-Mid-career employees are more likely to seek external opportunities.
-
-Compensation plays a crucial role in retaining talent.
-
-Higher attrition in technical/operational roles suggests role-based stress.
-
-Long-tenured employees show greater loyalty and organizational alignment.
-
-## 7. Conclusion
-
-The analysis indicates that attrition is significantly influenced by age, role type, compensation level and experience.
-
-Strategies focused on career growth, skill development, salary optimization and healthy work-life balance can reduce attrition rates and increase organizational productivity.
+| Senior Employees (40+) = Most stable   | More loyal and satisfied with role            |
 
 
+## 🧰 Tech Stack
+
+| Area               |    Tools Used                           |
+
+| ------------------ | ------------------------------------ |
+
+| Database           | MySQL                                |
+
+| Analytics          | Python (Pandas, NumPy)               |
+
+| Visualization      | Matplotlib, Seaborn                  |
+
+## 📁 Repository Structure
+
+HR-Analytics-Attrition-Prediction/
+
+│── SQL_Queries.sql      → Database creation, cleaning, analysis
+
+│── HR_Attrition_Analysis.ipynb   → Python EDA + visual insights
+
+│── Employee_Attrition.csv        → Dataset used in analysis
+
+│── requirements.txt              → Python dependencies (pip install -r)
+
+│── README.md                     → Project documentation
+│
+└── visuals/ (recommended)
+
+   │── attrition_count.png
+      
+   │── agegroup_attrition.png
+      
+   │── salary_vs_attrition.png
+      
+   │── department_attrition.png
+
+# 🔧 How to Run This Project Locally
+
+### 1. Clone Repo
+
+git clone https://github.com/RiteshMattoo/HR-Analytics-Attrition-Prediction.git
+cd HR-Analytics-Attrition-Prediction
+
+### 2. Install Dependencies
+
+pip install -r requirements.txt
+
+### 3. Run Notebook
+
+Jupyter Notebook
+
+# 🧽 Data Cleaning & Preparation (SQL)
+
+Conducted null and duplicate checks
+
+Checked invalid values and data consistency
+
+Detected outliers using IQR logic (Age)
+
+Created derived feature → AgeGroup
+
+Performed SQL-based attrition analytics
+
+# 📊 Exploratory Insights (Python)
+
+ Visualizations performed include:
+
+ Attrition count distribution
+
+ Department-wise attrition comparison
+
+ Monthly income vs attrition (boxplot)
+
+ Age group-wise attrition rate
+ 
+ Job role vs attrition
+
+ # 📌 Business Conclusion
+
+Attrition is significantly influenced by salary, age group, department, and job role.
+
+Mid-career employees (25–35) with lower income are more likely to leave.
+
+Retention strategies should focus on career growth, compensation upgrades, and work-life balance improvement for this population.
