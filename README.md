@@ -4,7 +4,7 @@ This project focuses on analyzing employee attrition within an organization usin
 
 The objective is to identify key factors that influence employee turnover and derive actionable insights that support workforce retention strategies.
 
-# 1. Project Overview
+## 1. Project Overview
 
 Employee attrition is a major cost driver for organizations.
 
@@ -18,22 +18,24 @@ Patterns, trends and correlations influencing workforce stability
 
 This analysis serves as a decision-support model for HR departments to design efficient retention programs.
 
-# 2. Tech Stack
+## 2. Tech Stack
 
 | Domain           | Technology                           |
 
 | ---------------- | ------------------------------------ |
+
 | Database         | **MySQL**                            |
 
 | Programming      | **Python**                           |
 
 | Libraries        | Pandas, NumPy, Matplotlib, Seaborn   |
 
-# 3. Project Components
+## 3. Project Components
 
 | File / Folder                 | Description                                                                      |
 
 | ----------------------------- | -------------------------------------------------------------------------------- |
+
 | `SQL_Queries.sql`             | Complete SQL workflow including data cleaning, transformation & analysis queries |
 
 | `HR_Attrition_Analysis.ipynb` | Python notebook for data visualization and exploratory insights                  |
@@ -42,7 +44,7 @@ This analysis serves as a decision-support model for HR departments to design ef
 
 | `README.md`                   | Project documentation                                                            |
 
-# 4.Data Preparation Summary (SQL)
+## 4.Data Preparation Summary (SQL)
 
   Performed data quality checks (null values, duplicates, inconsistency)
 
@@ -52,11 +54,12 @@ This analysis serves as a decision-support model for HR departments to design ef
 
   Performed SQL-based descriptive and comparative analytics
 
- # 5. Exploratory Data Analysis (Python)
+ ## 5. Exploratory Data Analysis (Python)
 
   ### Key analysis dimensions:
   
-  | Category         | Observations                                                              |
+  | Category         | Observations                                                              
+  |
 | ---------------- | ------------------------------------------------------------------------- |
 
 | Attrition Ratio  | ~16–18% employees exited the organization                                 |
@@ -71,7 +74,7 @@ This analysis serves as a decision-support model for HR departments to design ef
 
 | Senior Workforce | 40+ employees exhibit comparatively lower attrition                       |
 
-# 6. Key Insights
+## 6. Key Insights
 
 Mid-career employees are more likely to seek external opportunities.
 
@@ -81,7 +84,7 @@ Higher attrition in technical/operational roles suggests role-based stress.
 
 Long-tenured employees show greater loyalty and organizational alignment.
 
-# 7. Conclusion
+## 7. Conclusion
 
 The analysis indicates that attrition is significantly influenced by age, role type, compensation level and experience.
 
